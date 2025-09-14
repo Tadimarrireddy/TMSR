@@ -1,0 +1,5 @@
+com\tmsr\repository\ContactRepository.class
+com\tmsr\TmsrStsFullsiteApplication.class
+com\tmsr\controller\WebController.class
+com\tmsr\model\Contact.class
+com\tmsr\service\ContactService.class
