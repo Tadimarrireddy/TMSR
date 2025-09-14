@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - TMSR Technologies Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white flex flex-col min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl md:text-3xl font-bold text-blue-600">TMSR Technologies Pvt Ltd</h1>
+      <ul class="flex space-x-6 text-gray-700 font-medium text-lg md:text-xl">
+        <li><a href="index.html" class="hover:text-blue-600 font-semibold">Home</a></li>
+        <li><a href="about.html" class="hover:text-blue-600 font-semibold">About</a></li>
+        <li><a href="services.html" class="hover:text-blue-600 font-semibold">Services</a></li>
+        <li><a href="careers.html" class="hover:text-blue-600 font-semibold">Careers</a></li>
+        <li><a href="contact.html" class="text-blue-600 font-semibold">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="flex-grow max-w-5xl mx-auto px-6 py-28 text-center">
+    <h2 class="text-5xl font-bold mb-6">Contact Us</h2>
+    <p class="text-2xl italic mb-12 max-w-3xl mx-auto">
+      We’d love to hear from you. Whether you have a question, feedback, or partnership idea, 
+      get in touch with <span class="font-semibold">TMSR Technologies Pvt Ltd</span>.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-8 text-left">
+      
+      <!-- Contact Info -->
+      <div class="bg-white text-gray-800 shadow-lg rounded-lg p-6 hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+        <p class="mb-2">📍 D.No: 4/005, 2nd floor, Subash Nagar, Anantapur, Andhra Pradesh - 515004</p>
+        <p class="mb-2">📞 +91-8019286192 </p>
+        <p class="mb-2">📧 <a href="mailto:support@tmsrtechnologies.com" class="text-blue-600 font-semibold">support@tmsrtechnologies.com </a></p>
+      </div>
+
+      <!-- Contact Form -->
+      <form action="/contact/submit" method="post" class="bg-white text-gray-800 shadow-lg rounded-lg p-6 hover:shadow-2xl transition">
+        <input type="text" name="name" placeholder="Your Name" class="w-full border rounded p-3 mb-4 focus:ring-2 focus:ring-blue-500" required>
+        <input type="email" name="email" placeholder="Your Email" class="w-full border rounded p-3 mb-4 focus:ring-2 focus:ring-blue-500" required>
+        <textarea name="message" placeholder="Your Message" class="w-full border rounded p-3 mb-4 focus:ring-2 focus:ring-blue-500" rows="4" required></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white py-6 mt-auto">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm md:text-base lg:text-lg">© 2025 TMSR Technologies Pvt Ltd. All rights reserved.</p>
+      <div class="flex space-x-4 mt-3 md:mt-0 text-sm md:text-base lg:text-lg">
+        <a href="index.html" class="hover:text-gray-200 font-medium">Home</a>
+        <a href="about.html" class="hover:text-gray-200 font-medium">About</a>
+        <a href="services.html" class="hover:text-gray-200 font-medium">Services</a>
+        <a href="careers.html" class="hover:text-gray-200 font-medium">Careers</a>
+        <a href="contact.html" class="hover:text-gray-200 font-medium">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
