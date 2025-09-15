@@ -18,7 +18,7 @@ public class WebController {
     public String home(Model model) {
         model.addAttribute("companyName", "TMSR TECHNOLOGIES PRIVATE LIMITED");
         model.addAttribute("hotline", "+(91) 8019286192");
-        return "/home";
+        return "home";
     }
 
     // --- About ---
